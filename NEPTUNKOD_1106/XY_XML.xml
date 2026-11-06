@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XY_XMLSchema.xsd">
+
+
+	<!-- Ettermek -->
+	<etterem ekod="e1">
+		<nev>Trófea</nev>
+		<cim>
+			<varos>Budapest</varos>
+			<utca>Visegrádi</utca>
+			<hazszam>13</hazszam>
+		</cim>
+		<csillag>4</csillag>
+	</etterem>
+	
+	<etterem ekod="e2">
+		<nev>Gundel</nev>
+		<cim>
+			<varos>Budapest</varos>
+			<utca>Gundel Károly</utca>
+			<hazszam>4</hazszam>
+		</cim>
+		<csillag>5</csillag>
+	</etterem>
+	
+	
+	<!-- Foszakacsok -->
+	<foszakacs fkod="f1" e_f="e1">
+		<nev>Havas Péter</nev>
+		<eletkor>35</eletkor>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Paul Bocuse Institute</vegzettseg>
+	</foszakacs>
+	
+	<foszakacs fkod="f2" e_f="e2">
+		<nev>Nagy Károly</nev>
+		<eletkor>30</eletkor>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+	</foszakacs>
+	
+	
+	<!-- Szakacsok -->
+	<szakacs szkod="sz1" e_sz="e1">
+		<nev>Ötlet Elek</nev>
+		<reszleg>Saucier</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+		<vegzettseg>Paul Bocuse Institute</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod="sz2" e_sz="e2">
+		<nev>Kocsis Tibor</nev>
+		<reszleg>Entremetier</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod="sz3" e_sz="e2">
+		<nev>Tálas Levente</nev>
+		<reszleg>Gardemanger</reszleg>
+		<vegzettseg>Szakközépiskola</vegzettseg>
+	</szakacs>
+	
+	<szakacs szkod="sz4" e_sz="e1">
+		<nev>Szűcs Judit</nev>
+		<reszleg>Entremetier</reszleg>
+		<vegzettseg>Le Cordon Bleu</vegzettseg>
+		<vegzettseg>Paul Bocuse Institute</vegzettseg>
+	</szakacs>
+	
+	
+	<!-- Gyakornokok -->
+	<gyakornok gykod="gy1" e_gy="e1">
+		<nev>Bordás Dávid</nev>
+		<gyakorlat>
+			<kezdete>2025.08.20.</kezdete>
+			<idotartama>2 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délelőtt</muszak>
+		<muszak>Este</muszak>
+	</gyakornok>
+	
+	<gyakornok gykod="gy2" e_gy="e2">
+		<nev>Szilágyi István</nev>
+		<gyakorlat>
+			<kezdete>2024.06.01.</kezdete>
+			<idotartama>4 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délután</muszak>
+	</gyakornok>
+	
+	<gyakornok gykod="gy3" e_gy="e1">
+		<nev>Szentpétery Ferenc</nev>
+		<gyakorlat>
+			<kezdete>2024.01.01.</kezdete>
+			<idotartama>10 hónap</idotartama>
+		</gyakorlat>
+		<muszak>Délelőtt</muszak>
+		<muszak>Délután</muszak>
+	</gyakornok>
+	
+	
+	<!-- Vendegek -->
+	<vendeg vkod="v1">
+		<nev>Bednarik László</nev>
+		<eletkor>21</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Márton</utca>
+			<hazszam>17</hazszam>
+		</cim>
+	</vendeg>
+	
+	<vendeg vkod="v2">
+		<nev>Bordás Áron</nev>
+		<eletkor>25</eletkor>
+		<cim>
+			<varos>Eger</varos>
+			<utca>Dobó</utca>
+			<hazszam>12</hazszam>
+		</cim>
+	</vendeg>
+	
+	<vendeg vkod="v3">
+		<nev>Kiss Hajnalka</nev>
+		<eletkor>26</eletkor>
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Egyetem-város</utca>
+			<hazszam>1</hazszam>
+		</cim>
+	</vendeg>
+	
+	<!-- Rendelesek -->
+	<rendeles e_v_e="e1" e_v_v="v1">
+		<osszeg>9000</osszeg>
+		<etel>Steak</etel>
+	</rendeles>
+	
+	<rendeles e_v_e="e2" e_v_v="v2">
+		<osszeg>8000</osszeg>
+		<etel>Kaviár</etel>
+	</rendeles>
+	
+	<rendeles e_v_e="e1" e_v_v="v3">
+		<osszeg>20000</osszeg>
+		<etel>Zsíros kenyér</etel>
+	</rendeles>
+	
+	<rendeles e_v_e="e2" e_v_v="v3">
+		<osszeg>300</osszeg>
+		<etel>Mackó sajt</etel>
+	</rendeles>
+	
+</vendeglatas>
